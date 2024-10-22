@@ -11,3 +11,10 @@
 - Denoising (Low Pass, Gaussian, Bilateral Filter, NLM Filter, Color Denoising)
 - Water Color Painting Effect
 - [README](<Assignment 1/README.md>)
+
+# Assignment 2
+
+- Edge Detection (Sobel, Canny, Structured Edge)
+- Digital Half-Toning (Dithering, Error Diffusion)
+- Color Half-Toning
+- [README](<Assignment 2/README.md>)

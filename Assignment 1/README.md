@@ -1,6 +1,6 @@
 # Assignment 1
 
-## [Question 1](<Assignment 1/codes/Question 1/>)
+## [Question 1 - Image Demosaicing & Histogram Manipulation](<Assignment 1/codes/Question 1/>)
 
 ### Part A
 
@@ -31,7 +31,7 @@
     - Calculate the equalised bucket histogram (i.e positions to remap)
     - Remap the equalised pixel values
     - Write new image to raw file
-- [Code](<Assignment 1/codes/Question 1/Problem 1a/Prog1b.cpp>)
+- [Code](<Assignment 1/codes/Question 1/Problem 1b/Prog1b.cpp>)
 
 ### Part C
 
@@ -50,7 +50,7 @@
 - [Code - Transfer & Bucket](<Assignment 1/codes/Question 1/Problem 1a/Prog1c.cpp>)
 - [Code - CLAHE](<Assignment 1/codes/Question 1/Problem 1a/Prog1c_clahe.cpp>)
 
-## [Question 2](<Assignment 1/codes/Question 2/>)
+## [Question 2 - Image Denoising](<Assignment 1/codes/Question 2/>)
 
 ### Part A
 
@@ -102,7 +102,7 @@
   - Write denoised image to file
 - [Code](<Assignment 1/codes/Question 2/Problem 2d/Prog2d.cpp>)
 
-## Question 3
+## [Question 3 - Special Effect Image Filter - Watercolor Painting Effect](<Assignment 1/codes/Question 3/>)
 
 ### Full Question
 
@@ -110,15 +110,15 @@
 - Method
   - Read raw files (noise free and noisy images)
   - Two paths on original image
-  - Path 1 (I~m)
+  - Path 1 (I<sub>m</sub>)
     - Apply mirror padding to prevent reduction in size due to convolution
     - Run median filtering
     - Run K times
       - Apply mirror padding to prevent reduction in size due to convolution
       - Run bilateral filtering
-  - Path 2 (I~g)
+  - Path 2 (I<sub>g</sub>)
     - Apply mirror padding to prevent reduction in size due to convolution
     - Generate Gaussian filter and run convolution using the filter
-  - Linear Combination (I = 1.4 _ I~m + 0.4 _ I~g)
+  - Linear Combination (I = 1.4 \* I<sub>m</sub> + 0.4 \* I<sub>g</sub>)
   - Write combined image to file
 - [Code](<Assignment 1/codes/Question 3/Problem 3.cpp>)
