@@ -10,7 +10,9 @@
 - Computer the AUROC
 - Implement noise generation
 - Train model with 0,20,40,60,80% noise for FashionMNIST
+- [code](<codes/Question 1.ipynb>)
 
 ## [Question 2 - Vision Transformer](<codes/Question 2 - ViT/>)
 
 - Run provided transformer training on MNIST for 100 epochs to compare performance against CNN
+- [code](<codes/Question 2 - ViT/>)
