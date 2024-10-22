@@ -1,6 +1,6 @@
 # Assignment 1
 
-## [Question 1 - Image Demosaicing & Histogram Manipulation](<Assignment 1/codes/Question 1/>)
+## [Question 1 - Image Demosaicing & Histogram Manipulation](<codes/Question 1>)
 
 ### Part A
 
@@ -10,7 +10,7 @@
   - Apply mirror padding to prevent reduction in size due to convolution
   - Run convolution treating the input image as single channel and having bayer pattern to reconstruct the image
   - Write the reconstructed image to raw file
-- [Code](<Assignment 1/codes/Question 1/Problem 1a/Prog1a.cpp>)
+- [Code](<codes/Question 1/Problem 1a/Prog1a.cpp>)
 
 ### Part B
 
@@ -31,7 +31,7 @@
     - Calculate the equalised bucket histogram (i.e positions to remap)
     - Remap the equalised pixel values
     - Write new image to raw file
-- [Code](<Assignment 1/codes/Question 1/Problem 1b/Prog1b.cpp>)
+- [Code](<codes/Question 1/Problem 1b/Prog1b.cpp>)
 
 ### Part C
 
@@ -47,10 +47,10 @@
   - Replace YUV with Y'UV
   - Remap Y'UV to RGB space
   - Write new image to raw file
-- [Code - Transfer & Bucket](<Assignment 1/codes/Question 1/Problem 1a/Prog1c.cpp>)
-- [Code - CLAHE](<Assignment 1/codes/Question 1/Problem 1a/Prog1c_clahe.cpp>)
+- [Code - Transfer & Bucket](<codes/Question 1/Problem 1c/Prog1c.cpp>)
+- [Code - CLAHE](<codes/Question 1/Problem 1c/Prog1c_clahe.cpp>)
 
-## [Question 2 - Image Denoising](<Assignment 1/codes/Question 2/>)
+## [Question 2 - Image Denoising](<codes/Question 2>)
 
 ### Part A
 
@@ -63,7 +63,7 @@
   - Generate filter and run convolution using the filter
   - Calculate mean square error & psnr
   - Write denoised image to file
-- [Code](<Assignment 1/codes/Question 2/Problem 2a/Prog2a.cpp>)
+- [Code](<codes/Question 2/Problem 2a/Prog2a.cpp>)
 
 ### Part B
 
@@ -74,7 +74,7 @@
   - Generate filter and run convolution using the filter
   - Calculate mean square error & psnr
   - Write denoised image to file
-- [Code](<Assignment 1/codes/Question 2/Problem 2b/Prog2b.cpp>)
+- [Code](<codes/Question 2/Problem 2b/Prog2b.cpp>)
 
 ### Part C
 
@@ -85,7 +85,7 @@
   - Generate filter and run convolution using the filter (using opencv)
   - Calculate mean square error & psnr
   - Write denoised image to file
-- [Code](<Assignment 1/codes/Question 2/Problem 2c/Prog2c.cpp>)
+- [Code](<codes/Question 2/Problem 2c/Prog2c.cpp>)
 
 ### Part D
 
@@ -100,9 +100,9 @@
   - Run gaussian filtering for bell curve noise
   - Calculate mean square error and psnr
   - Write denoised image to file
-- [Code](<Assignment 1/codes/Question 2/Problem 2d/Prog2d.cpp>)
+- [Code](<codes/Question 2/Problem 2d/Prog2d.cpp>)
 
-## [Question 3 - Special Effect Image Filter - Watercolor Painting Effect](<Assignment 1/codes/Question 3/>)
+## [Question 3 - Special Effect Image Filter - Watercolor Painting Effect](<codes/Question 3>)
 
 ### Full Question
 
@@ -121,4 +121,4 @@
     - Generate Gaussian filter and run convolution using the filter
   - Linear Combination (I = 1.4 \* I<sub>m</sub> + 0.4 \* I<sub>g</sub>)
   - Write combined image to file
-- [Code](<Assignment 1/codes/Question 3/Problem 3.cpp>)
+- [Code](<codes/Question 3/Prog3.cpp>)

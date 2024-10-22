@@ -1,6 +1,6 @@
 # Assignment 2
 
-## [Question 1 - Edge Detection](<Assignment 2/codes/Question 1/>)
+## [Question 1 - Edge Detection](<codes/Question 1/>)
 
 ### Part A
 
@@ -16,7 +16,7 @@
   - Select pixels with intensity greater than threshold
   - Generate Edge map
   - Write edge map to file
-- [Code](<Assignment 2/codes/Question 1/Problem 1a/Prog1a.cpp>)
+- [Code](<codes/Question 1/Problem 1a/Prog1a.cpp>)
 
 ### Part B
 
@@ -27,7 +27,7 @@
   - Apply mirror padding to prevent reduction in size due to convolution
   - Run Canny Edge detector (using Opencv)
   - Write edge map to file
-- [Code](<Assignment 2/codes/Question 1/Problem 1b/Prog1b.cpp>)
+- [Code](<codes/Question 1/Problem 1b/Prog1b.cpp>)
 
 ### Part C
 
@@ -36,7 +36,7 @@
   - Train structured edge model on BSDS500 (Model code provided by library)
   - Read raw image
   - Run edge detetion using trained model
-- [Code](<Assignment 2/codes/Question 1/Problem 1c/Prog1c.m>)
+- [Code](<codes/Question 1/Problem 1c/Prog1c.m>)
 
 ### Part D
 
@@ -45,9 +45,9 @@
   - Obtain probabilty maps for each edge detector
   - Using the ground truths provided evualate and obtain precision, recall and F scores
   - Plot F scores
-- [Code](<Assignment 2/codes/Question 1/Problem 1d/Prog1d.m>)
+- [Code](<codes/Question 1/Problem 1d/Prog1d.m>)
 
-## [Question 2 - Digital Half-toning](<Assignment 2/codes/Question 2/>)
+## [Question 2 - Digital Half-toning](<codes/Question 2/>)
 
 ### Part A
 
@@ -66,7 +66,7 @@
     - Generate threshold matrix
     - Run dithering using the threshold matrix
   - Write the dithered image to a file
-- [Code](<Assignment 1/codes/Question 2/Problem 2a/Prog2a.cpp>)
+- [Code](<codes/Question 2/Problem 2a/Prog2a.cpp>)
 
 ### Part B
 
@@ -81,9 +81,9 @@
   - Apply mirror padding to prevent reduction in size due to convolution
   - Run convolution using serpentine scanning to propogate error diffusion
   - Write dithered image to file
-- [Code](<Assignment 2/codes/Question 2/Problem 2b/Prog2b.cpp>)
+- [Code](<codes/Question 2/Problem 2b/Prog2b.cpp>)
 
-## [Question 3 - Color Half-toning with Error Diffusion](<Assignment 2/codes/Question 3/>)
+## [Question 3 - Color Half-toning with Error Diffusion](<codes/Question 3/>)
 
 ### Part A
 
@@ -98,7 +98,7 @@
   - Convert CMY to RGB space
   - Scale the data from 0-1 to 0-255 scale
   - Write image to file
-- [Code](<Assignment 2/codes/Question 3/Problem 3a/Prog3a.cpp>)
+- [Code](<codes/Question 3/Problem 3a/Prog3a.cpp>)
 
 ### Part B
 
@@ -109,4 +109,4 @@
   - Create Error diffusion matrix
   - Run dithering using the MBVQ and nearest vertex algorithm
   - Write image to file
-- [Code](<Assignment 2/codes/Question 3/Problem 3b/Prog3b.cpp>)
+- [Code](<codes/Question 3/Problem 3b/Prog3b.cpp>)
