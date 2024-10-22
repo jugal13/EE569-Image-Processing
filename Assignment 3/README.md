@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 3
 
 ## [Question 1 - Geometric Image Modification](<codes/Question 1/>)
 

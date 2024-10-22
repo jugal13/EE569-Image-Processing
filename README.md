@@ -25,3 +25,10 @@
 - Homographic Transformation & Image Stitching
 - Morphological processing
 - [README](<Assignment 3/README.md>)
+
+## Assignment 4
+
+- Texture analysis
+- Texture segmentation
+- SIFT & Image Matching
+- [README](<Assignment 4/README.md>)
